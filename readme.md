@@ -4,6 +4,10 @@ Sense I was not able to use scss, I used a gulp build process that allowed me to
 
 I also tried to be mindful of accessibility using aria roles and semantic markup. 
 
+I created an icon font for the icons.
+
+I also made use of css grid and css variables sense the requirements for this project stated support only needed to be for the latest versions of chrome / safari. 
+
 Source code can be viewed here in the git reposity.
 
 To run the project locally:

@@ -1,0 +1,57 @@
+.product {
+  margin: var(--spacing-large) 0 var(--spacing-large) 0;
+}
+
+.product__image img{
+  animation: slide-in .7s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  transform: translateX(5%);
+  width: 100%;
+}
+
+.product__image figcaption {
+  display: block;
+  margin: 0 0 var(--spacing-x-small);
+}
+
+.product__header {
+  display: none;
+}
+
+.product__data {
+  color: var(--color-light-gray);
+  font-size: var(--font-small);
+  font-weight: 600;
+}
+
+.product__title {
+  font-family: 'Cormorant Garamond';
+  font-size: var(--font-x-large);
+  margin: var(--spacing-xx-small) 0 0 0;
+}
+
+.product__description {
+  color: var(--color-light-gray);
+  font-size: var(--font-base);
+  line-height: 30px;
+  margin: var(--spacing-x-small) 0;
+}
+
+.product__share {
+  margin: 30px 0 0;
+}
+
+@media only screen and (min-width: 768px)  {
+  .product__image figcaption {
+    display: none;
+  }
+
+  .product__header {
+    display: block;
+  }
+
+  .product__share {
+    margin: 0;
+  }
+}

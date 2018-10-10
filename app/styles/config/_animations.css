@@ -1,0 +1,16 @@
+.a-push-up {
+  margin-top: 0;
+  transition: .2s margin ease-in-out;
+}
+
+.a-push-up:hover {
+  margin-top: -6px;
+  transition: .2s margin ease-in-out;
+}
+
+@keyframes slide-in {
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}

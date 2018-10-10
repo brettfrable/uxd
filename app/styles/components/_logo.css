@@ -1,0 +1,12 @@
+.logo {
+  background-image: url('../../images/market-logo.svg');
+  height: 24px;
+  width: 168px;
+}
+
+.logo a {
+  display: block;
+  height: inherit;
+  text-indent: -8400px;
+  width: inherit;
+}

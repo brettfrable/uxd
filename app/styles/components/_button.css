@@ -1,0 +1,17 @@
+.button {
+  background: var(--color-light-green);
+  color: var(--color-green);
+  display: block;
+  font-size: var(--font-small);
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 17px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .1s all ease-in-out;
+}
+
+.button:hover {
+  background: var(--color-green);
+  color: var(--color-white);
+}

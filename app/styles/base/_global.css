@@ -1,0 +1,20 @@
+html {
+  background: #edede8;
+  font: var(--font-base)/1.5 Proza Libre, sans-serif;
+}
+
+body {
+  padding: var(--spacing-base);
+}
+
+.hr--solid {
+  background: #cfcfcb;
+  border: none;
+  height: 1px;
+  width: 100%;
+}
+
+.hr--dashed {
+  border-top: 1px dashed var(--color-black);
+  margin: var(--spacing-small) 0;
+}

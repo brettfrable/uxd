@@ -1,0 +1,40 @@
+/* COLORS */
+:root {
+  --color-black:       #000000;
+  --color-gray:        #5b5b5b;
+  --color-green:       #146e4d;
+  --color-light-gray:  #767673;
+  --color-light-green: #dadfd2;
+  --color-white:       #ffffff;
+}
+
+/* TYPOGRAPHY */
+:root {
+  --font-small:        14px;
+  --font-base:         16px;
+  --font-x-large:      36px;
+}
+
+/* SPACING */
+:root {
+  --spacing-xx-small:  10px;
+  --spacing-x-small:   23px;
+  --spacing-small:     35px;
+  --spacing-base:      40px;
+  --spacing-large:     63px;
+  --spacing-x-large:   75px;
+}
+
+
+@media only screen and (min-width: 768px)  {
+  /* TYPOGRAPHY */
+  :root {
+    --font-x-large:      56px;
+  }
+
+  /* SPACING */
+  :root {
+    --spacing-xx-small:  20px;
+    --spacing-x-small:   33px;
+  }
+}

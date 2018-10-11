@@ -2,7 +2,7 @@
   margin: var(--spacing-large) 0 var(--spacing-large) 0;
 }
 
-.product__image img{
+.product__image img {
   animation: slide-in .7s forwards;
   animation-delay: 1s;
   opacity: 0;

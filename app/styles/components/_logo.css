@@ -1,6 +1,7 @@
 .logo {
   background-image: url('../../images/market-logo.svg');
   height: 24px;
+  margin: 0 auto;
   width: 168px;
 }
 
@@ -9,4 +10,10 @@
   height: inherit;
   text-indent: -8400px;
   width: inherit;
+}
+
+@media only screen and (min-width: 768px)  {
+  .logo {
+    margin: 0;
+  }
 }

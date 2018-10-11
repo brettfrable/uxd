@@ -10,12 +10,13 @@ I also made use of css grid and css variables sense the requirements for this pr
 
 Source code can be viewed here in the git repository.
 
+The app folder contains the development files and the dist folder contains the production files.
+
 To run the project locally:
 
 1. Clone the repo
 2. npm Install
 3. gulp serve
-4. gulp build if you would like to see the build files.
 
 I used node v9.7.1 if you have any issues.
 
